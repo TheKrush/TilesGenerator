@@ -10,12 +10,13 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>blog_mikecouturier_com</RootNamespace>
     <AssemblyName>TilesGenerator</AssemblyName>
+    <ProjectName>TilesGenerator</ProjectName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <OutputPath>$(ProjectDir)$(Configuration)\$(Platform)\bin\</OutputPath>
-    <IntermediateOutputPath>$(ProjectDir)$(Configuration)\$(Platform)\obj\</IntermediateOutputPath>
+    <OutputPath>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\bin\</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\obj\</IntermediateOutputPath>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
