@@ -1,18 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LostMinions", "LostMinions", "{882E102E-BA23-4D0C-AB43-E9CCA84A2738}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostMinions.Forms", "LostMinions\Libraries\Forms\LostMinions.Forms.csproj", "{6899EE61-5D83-406D-9291-7E47CA8ADDDA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostMinions.Functions", "LostMinions\Libraries\Functions\LostMinions.Functions.csproj", "{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostMinions.Controls", "LostMinions\Libraries\Controls\LostMinions.Controls.csproj", "{29212294-5EDF-443D-8EFB-9887A7EB1754}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versioner", "LostMinions\Libraries\Versioner\Versioner.csproj", "{425D1C8B-6789-47F9-8C60-77F093297F2D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostMinions.Windows", "LostMinions\Libraries\Windows\LostMinions.Windows.csproj", "{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesGenerator", "TilesGenerator\TilesGenerator.csproj", "{B223B39F-0FF4-42D3-B233-F7E613905831}"
 EndProject
 Global
@@ -25,58 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|x64.ActiveCfg = Debug|x64
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|x64.Build.0 = Debug|x64
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|x86.ActiveCfg = Debug|x86
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Debug|x86.Build.0 = Debug|x86
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|x64.ActiveCfg = Release|x64
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|x64.Build.0 = Release|x64
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|x86.ActiveCfg = Release|x86
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA}.Release|x86.Build.0 = Release|x86
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|x64.ActiveCfg = Debug|x64
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|x64.Build.0 = Debug|x64
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|x86.ActiveCfg = Debug|x86
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Debug|x86.Build.0 = Debug|x86
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|x64.ActiveCfg = Release|x64
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|x64.Build.0 = Release|x64
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|x86.ActiveCfg = Release|x86
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F}.Release|x86.Build.0 = Release|x86
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|x64.ActiveCfg = Debug|x64
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|x64.Build.0 = Debug|x64
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|x86.ActiveCfg = Debug|x86
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Debug|x86.Build.0 = Debug|x86
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|x64.ActiveCfg = Release|x64
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|x64.Build.0 = Release|x64
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|x86.ActiveCfg = Release|x86
-		{29212294-5EDF-443D-8EFB-9887A7EB1754}.Release|x86.Build.0 = Release|x86
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Release|x64.ActiveCfg = Release|Any CPU
-		{425D1C8B-6789-47F9-8C60-77F093297F2D}.Release|x86.ActiveCfg = Release|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Release|x64.ActiveCfg = Release|Any CPU
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD}.Release|x86.ActiveCfg = Release|Any CPU
 		{B223B39F-0FF4-42D3-B233-F7E613905831}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{B223B39F-0FF4-42D3-B233-F7E613905831}.Debug|x64.ActiveCfg = Debug|x86
 		{B223B39F-0FF4-42D3-B233-F7E613905831}.Debug|x86.ActiveCfg = Debug|x86
@@ -88,12 +26,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6899EE61-5D83-406D-9291-7E47CA8ADDDA} = {882E102E-BA23-4D0C-AB43-E9CCA84A2738}
-		{B3C3F6C2-C606-4E6C-8C30-A86C10A64C9F} = {882E102E-BA23-4D0C-AB43-E9CCA84A2738}
-		{29212294-5EDF-443D-8EFB-9887A7EB1754} = {882E102E-BA23-4D0C-AB43-E9CCA84A2738}
-		{425D1C8B-6789-47F9-8C60-77F093297F2D} = {882E102E-BA23-4D0C-AB43-E9CCA84A2738}
-		{F10816DC-5BA9-4F46-B214-3EDDEE74B5FD} = {882E102E-BA23-4D0C-AB43-E9CCA84A2738}
 	EndGlobalSection
 EndGlobal
